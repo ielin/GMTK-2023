@@ -37,4 +37,12 @@ public class Line : MonoBehaviour
 
         return Vector2.Distance(_renderer.GetPosition(_renderer.positionCount - 1), pos) > DrawManager.RESOLUTION;
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Border")
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

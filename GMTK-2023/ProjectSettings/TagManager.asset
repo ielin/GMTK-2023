@@ -7,6 +7,7 @@ TagManager:
   - Border
   - GameOver
   - Ball
+  - Obstacle1
   layers:
   - Default
   - TransparentFX

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 434228435171514268}
-  - component: {fileID: 5728073062552784551}
+  - component: {fileID: 4722527388913556522}
   m_Layer: 0
   m_Name: Collider
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Father: {fileID: 576462015502181070}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!68 &5728073062552784551
+--- !u!68 &4722527388913556522
 EdgeCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,4 +222,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _renderer: {fileID: 11305327892133322}
-  _collider: {fileID: 5728073062552784551}
+  _collider: {fileID: 4722527388913556522}
